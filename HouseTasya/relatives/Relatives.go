@@ -1,4 +1,4 @@
-package main
+package relatives
 
 type Relatives struct {
 	Member string

@@ -1,4 +1,4 @@
-package main
+package appliance
 
 type Appliance struct {
 	Name  string

@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"HouseTasya/HouseTasya/house"
+	"fmt"
+)
 
-func newHouse(house House) {
+func myHouse(house house.House) {
 	fmt.Printf("Описание дома:\n")
 	fmt.Printf("Количество комнат: %d\n", house.RoomsCount)
 	fmt.Printf("Количество этажей: %d\n", house.FloorsCount)
@@ -35,6 +38,6 @@ func newHouse(house House) {
 }
 
 func main() {
-	HouseTasya := createHouse()
-	newHouse(HouseTasya)
+	newHouse := house.CreateHouse()
+	myHouse(newHouse)
 }

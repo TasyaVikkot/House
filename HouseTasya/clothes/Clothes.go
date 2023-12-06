@@ -1,4 +1,4 @@
-package main
+package clothes
 
 type Clothes struct {
 	Name  string
