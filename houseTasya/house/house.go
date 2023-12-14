@@ -1,12 +1,12 @@
 package house
 
 import (
-	"HouseTasya/houseTasya/appliance"
-	"HouseTasya/houseTasya/clothes"
-	"HouseTasya/houseTasya/family"
-	"HouseTasya/houseTasya/furniture"
-	"HouseTasya/houseTasya/relatives"
 	"fmt"
+	"houseTasya/houseTasya/appliance"
+	"houseTasya/houseTasya/clothes"
+	"houseTasya/houseTasya/family"
+	"houseTasya/houseTasya/furniture"
+	"houseTasya/houseTasya/relatives"
 )
 
 type House struct {
